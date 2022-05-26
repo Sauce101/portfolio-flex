@@ -10,15 +10,15 @@ import CardActions from '@mui/material/CardActions'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew'
 // project images
-import DiceRed from '../assets/images/covers/dicered.jpg'
+import DiceRed from '../assets/images/covers/diceflex.jpg'
 import TableGames from '../assets/images/covers/gametable.jpg'
-import HighCard from '../assets/images/covers/highcard.jpg'
-import DicePoker from '../assets/images/covers/dicepoker.jpg'
+import HighCard from '../assets/images/covers/highlow.jpg'
+import DicePoker from '../assets/images/covers/pokerdice.jpg'
 import Sienar from '../assets/images/covers/sienar.jpg'
 import Xwing from '../assets/images/covers/xwing.jpg'
 import DsOne from '../assets/images/covers/dsone.jpg'
-import TeslaRed from '../assets/images/covers/teslared.jpg'
-import Swapi from '../assets/images/covers/swapi.jpg'
+import TeslaRed from '../assets/images/covers/teslaclone.jpg'
+import Swapi from '../assets/images/covers/swapinext.jpg'
 
 const MYALBUM = [
   {
@@ -103,7 +103,6 @@ const Projects = ({ daytime }) => {
           key={index}
           sx={{
             // flex: { sm: '40%', lg: '25%' },
-            // flexFlow: 'column no-wrap',
             maxWidth: { sm: '40%', lg: '25%' },
             // border: daytime ? '4px solid white' : '4px solid black',
             border: '2px solid white',
@@ -134,7 +133,7 @@ const Projects = ({ daytime }) => {
               underline="none"
               target="_blank"
               rel="noopener noreferrer"
-              variant="outlined"
+              variant="contained"
               startIcon={<OpenInNewIcon />}
               size="small"
               sx={{ position: 'absolute', left: 12, bottom: 8 }}

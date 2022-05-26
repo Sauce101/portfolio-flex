@@ -8,7 +8,7 @@
 
 In this portfolio I use React.js 18 to showcase some of my projects I created. I use MUI 5 for styling and practice positioning with the Flexbox component.
 
-<!-- Open [My Portfolio](https://gametables.netlify.app/) to view it in your browser. -->
+Open [My Portfolio](https://mikeys.netlify.app/) to view it in your browser.
 
 ## 🧐 What's inside?
 

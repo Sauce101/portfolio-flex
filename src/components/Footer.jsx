@@ -8,7 +8,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="background.paper">
       {'Copyright © '}
-      <Link color="inherit" href="http://localhost:3000/">
+      <Link color="inherit" href="https://mikeys.netlify.app/">
         Michael Saucedo
       </Link>{' '}
       {new Date().getFullYear()}
@@ -27,10 +27,6 @@ const Footer = () => {
         mt: 'auto',
         backgroundColor: 'primary.main',
         color: 'background.paper',
-        // backgroundColor: theme =>
-        //   theme.palette.mode === 'light'
-        //     ? theme.palette.grey[200]
-        //     : theme.palette.grey[800],
       }}
     >
       <Container maxWidth="sm" align="center">

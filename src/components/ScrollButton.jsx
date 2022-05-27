@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
 import Fab from '@mui/material/Fab'
-import Box from '@mui/material/Box'
 import UpIcon from '@mui/icons-material/KeyboardArrowUp'
+import Box from '@mui/material/Box'
 
 const ScrollButton = () => {
   const [visible, setVisible] = useState(false)
 
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop
-    if (scrolled > 300) {
+    if (scrolled > 400) {
       setVisible(true)
-    } else if (scrolled <= 300) {
+    } else if (scrolled <= 400) {
       setVisible(false)
     }
   }
@@ -31,19 +31,16 @@ const ScrollButton = () => {
       <Box
         sx={{
           position: 'fixed',
-          // right: '50%',
-          mx: 'auto',
+          // mx: 'auto',
           bottom: '120px',
           height: '20px',
-          fontSize: '3rem',
-          // zIndex: '1',
+          // fontSize: '3rem',
           cursor: 'pointer',
           color: 'primary.main',
           display: visible ? 'inline' : 'none',
-          // display: !visible && 'none',
         }}
       >
-        <Fab onClick={scrollToTop} color="primary" aria-label="add">
+        <Fab onClick={scrollToTop} color="primary" aria-label="up">
           <UpIcon />
         </Fab>
       </Box>

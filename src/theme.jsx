@@ -8,21 +8,23 @@ export const theme = createTheme({
       main: red[900],
       contrastText: '#fff',
     },
-    // primary: {
-    //   light: '#629749',
-    //   main: '#33691e',
-    //   dark: '#003d00',
-    //   contrastText: '#fff',
-    // },
     secondary: {
       main: grey[900],
       contrastText: '#fff',
     },
-    // secondary: {
-    //   light: '#6a4f4b',
-    //   main: '#3e2723',
-    //   dark: '#1b0000',
-    //   contrastText: '#fff',
-    // },
+  },
+})
+
+export const darkTheme = createTheme({
+  palette: {
+    primary: {
+      main: red[900],
+      contrastText: '#fff',
+    },
+    secondary: {
+      main: grey[900],
+      contrastText: '#fff',
+    },
+    mode: 'dark',
   },
 })

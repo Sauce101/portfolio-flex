@@ -6,7 +6,7 @@ import Link from '@mui/material/Link'
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="background.paper">
+    <Typography variant="body2">
       {'Copyright © '}
       <Link color="inherit" href="https://mikeys.netlify.app/">
         Michael Saucedo
@@ -17,7 +17,7 @@ function Copyright() {
   )
 }
 
-const Footer = () => {
+const Footer = ({ daytime }) => {
   return (
     <Box
       component="footer"
@@ -25,8 +25,8 @@ const Footer = () => {
         py: 3,
         px: 2,
         mt: 'auto',
-        backgroundColor: 'primary.main',
-        color: 'background.paper',
+        bgcolor: 'primary.main',
+        color: 'primary.contrastText',
       }}
     >
       <Container maxWidth="sm" align="center">

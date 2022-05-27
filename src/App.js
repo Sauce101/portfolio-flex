@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { ThemeProvider } from '@mui/material/styles'
-import { theme } from './theme'
+import { theme, darkTheme } from './theme'
 import CssBaseline from '@mui/material/CssBaseline'
 import Box from '@mui/material/Box'
 import Stack from '@mui/material/Stack'
@@ -12,6 +12,7 @@ import Footer from './components/Footer'
 
 import BgLite from './assets/images/bg/litestripe.jpg'
 import BgDark from './assets/images/bg/darkred.jpg'
+// import ScrollButton from './components/ScrollButton'
 
 function App() {
   const [daytime, setDaytime] = useState(() => {
@@ -22,13 +23,16 @@ function App() {
     setDaytime(!daytime)
   }
 
+  const mode = daytime ? theme : darkTheme
+
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={mode}>
       <CssBaseline />
       <Navbar duskdawn={duskdawn} daytime={daytime} />
       <Hero daytime={daytime} />
       <Box
         backgroundColor="secondary.main"
+        id="Pro"
         sx={{
           display: 'flex',
           flexDirection: 'column',
@@ -47,7 +51,7 @@ function App() {
           gap={4}
           sx={{
             justifyContent: 'center',
-            // alignContent: 'center',
+            alignContent: 'center',
             // alignContent: { xs: 'center', sm: 'stretch' },
             // mb: 'auto',
             p: 4,
@@ -58,7 +62,8 @@ function App() {
           <Projects daytime={daytime} />
         </Stack>
       </Box>
-      <Footer />
+      {/* <ScrollButton /> */}
+      <Footer daytime={daytime} />
     </ThemeProvider>
   )
 }

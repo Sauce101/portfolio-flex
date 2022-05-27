@@ -1,12 +1,14 @@
 import React from 'react'
 import { styled } from '@mui/material/styles'
+import Box from '@mui/material/Box'
+// import Button from '@mui/material/Button'
 import AppBar from '@mui/material/AppBar'
 import Toolbar from '@mui/material/Toolbar'
-import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import LogoDevIcon from '@mui/icons-material/LogoDev'
 import DarkModeIcon from '@mui/icons-material/DarkMode'
 import LightModeIcon from '@mui/icons-material/LightMode'
+// import Link from '@mui/material/Link'
 import { amber, yellow } from '@mui/material/colors'
 
 const StyledToolbar = styled(Toolbar)({
@@ -19,13 +21,28 @@ const Navbar = ({ duskdawn, daytime }) => {
   return (
     <AppBar
       position="sticky"
-      sx={{ backgroundColor: 'primary.main', mb: 'auto' }}
+      sx={{
+        backgroundColor: 'primary.main',
+        mb: 'auto',
+      }}
     >
       <StyledToolbar>
         <Box sx={{ display: { xs: 'none', sm: 'flex' } }}>
           <LogoDevIcon fontSize="large" sx={{ mr: 1 }} />
           <Typography variant="h6">Portfolio</Typography>
         </Box>
+        {/* <Button
+          color="secondary"
+          component={Link}
+          href="#Pro"
+          underline="none"
+          variant="contained"
+          startIcon={<LogoDevIcon />}
+          size="small"
+          sx={{ behavior: 'smooth' }}
+        >
+          Portfolio
+        </Button> */}
         <LogoDevIcon
           fontSize="large"
           sx={{ display: { xs: 'block', sm: 'none' } }}

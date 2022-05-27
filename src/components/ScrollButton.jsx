@@ -38,6 +38,7 @@ const ScrollButton = () => {
           cursor: 'pointer',
           color: 'primary.main',
           display: visible ? 'inline' : 'none',
+          ml: { xs: '85%', sm: '90%', lg: '92%' },
         }}
       >
         <Fab onClick={scrollToTop} color="primary" aria-label="up">

@@ -10,9 +10,9 @@ import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 
-import BgLite from './assets/images/bg/litestripe.jpg'
+import BgLite from './assets/images/bg/rwback.jpg'
 import BgDark from './assets/images/bg/darkred.jpg'
-// import ScrollButton from './components/ScrollButton'
+import ScrollButton from './components/ScrollButton'
 
 function App() {
   const [daytime, setDaytime] = useState(() => {
@@ -42,7 +42,6 @@ function App() {
           backgroundPosition: 'center center',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
-          color: !daytime && 'white',
         }}
       >
         <Stack
@@ -62,7 +61,7 @@ function App() {
           <Projects daytime={daytime} />
         </Stack>
       </Box>
-      {/* <ScrollButton /> */}
+      <ScrollButton sx={{ justifyContent: 'flex-end' }} />
       <Footer daytime={daytime} />
     </ThemeProvider>
   )

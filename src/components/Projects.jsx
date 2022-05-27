@@ -19,7 +19,7 @@ import Xwing from '../assets/images/covers/xwing.jpg'
 import DsOne from '../assets/images/covers/dsone.jpg'
 import TeslaRed from '../assets/images/covers/teslaclone.jpg'
 import Swapi from '../assets/images/covers/swapinext.jpg'
-import ScrollButton from './ScrollButton'
+// import ScrollButton from './ScrollButton'
 
 const MYALBUM = [
   {
@@ -96,7 +96,7 @@ const MYALBUM = [
   },
 ]
 
-const Projects = ({ daytime }) => {
+const Projects = () => {
   return (
     <>
       {MYALBUM.map((proj, index) => (
@@ -158,7 +158,7 @@ const Projects = ({ daytime }) => {
           </CardActions>
         </Card>
       ))}
-      <ScrollButton />
+      {/* <ScrollButton sx={{ justifyContent: 'flex-end' }} /> */}
     </>
   )
 }

@@ -26,6 +26,7 @@ const MYALBUM = [
     href: 'https://diceflex.netlify.app/',
     code: 'https://github.com/Sauce101/dice-flex',
     image: DiceRed,
+    alt: 'red dice',
     title: 'Dice Flex',
     about:
       'Flexbox practice with animation and rotation building dice with craps table background. Built with React.js and MUI 5.',
@@ -34,6 +35,7 @@ const MYALBUM = [
     href: 'https://gametables.netlify.app/',
     code: 'https://github.com/Sauce101/game-table',
     image: TableGames,
+    alt: 'table games',
     title: 'Table Games',
     about:
       'React Router 6 practice with animation and rotation building dice and cards. Built with React.js and MUI 5.',
@@ -42,6 +44,7 @@ const MYALBUM = [
     href: 'https://pokerdice.netlify.app/',
     code: 'https://github.com/Sauce101/poker-dice',
     image: DicePoker,
+    alt: 'poker dice',
     title: 'Poker Dice',
     about:
       'Grid practice with animation and rotation building poker dice with an svg per side. Built with React.js and MUI 5.',
@@ -50,6 +53,7 @@ const MYALBUM = [
     href: 'https://highcard.netlify.app/',
     code: 'https://github.com/Sauce101/high-card',
     image: HighCard,
+    alt: 'high card',
     title: 'High Card',
     about:
       'Builds a 52 card deck, shuffles, cuts and flips the cards until all cards are delt. Then a fresh deck with different color back is used. React.js & MUI 5',
@@ -58,6 +62,7 @@ const MYALBUM = [
     href: 'https://sienar.netlify.app/',
     code: 'https://github.com/Sauce101/sienar',
     image: Sienar,
+    alt: 'sienar',
     title: 'Sienar Fleet Systems',
     about:
       'Sienar Fleet Systems starship manufacturer, best known for their TIE line. Many starships to choose from. Built with Gatsby.js & MUI 5.',
@@ -66,6 +71,7 @@ const MYALBUM = [
     href: 'https://xwing-sauce.netlify.app/',
     code: 'https://github.com/Sauce101/xwing-sauce',
     image: Xwing,
+    alt: 'x-wing',
     title: 'X-wing',
     about:
       'A fan site written in Gatsby.js showcasing the X-wing starfighter from the original movies. The site is installable.',
@@ -74,6 +80,7 @@ const MYALBUM = [
     href: 'https://ds1.netlify.app/',
     code: 'https://github.com/Sauce101/star-styled',
     image: DsOne,
+    alt: 'death star one',
     title: 'DS-1',
     about:
       'A fan site written in React.js and Styled-Components showcasing the Death Star from the original movies.',
@@ -82,6 +89,7 @@ const MYALBUM = [
     href: 'https://teslatwo.netlify.app/',
     code: 'https://github.com/Sauce101/tesla-clone-react',
     image: TeslaRed,
+    alt: 'tesla clone',
     title: 'Tesla Clone',
     about:
       'My second Tesla clone site, built with React and styled components. This is from a tutorial I modified.',
@@ -90,6 +98,7 @@ const MYALBUM = [
     href: 'https://swapi-next.vercel.app/',
     code: 'https://github.com/Sauce101/swapi-next',
     image: Swapi,
+    alt: 'swapi',
     title: 'SW-API',
     about:
       'My first build utilizing an API that has a Star Wars theme. This is a wiki like site with Galactic Basic to English language translation. Built with Next.js',
@@ -114,6 +123,7 @@ const Projects = () => {
         >
           <CardMedia
             component="img"
+            alt={proj.alt}
             image={proj.image}
             sx={{
               aspectRatio: '16 / 9',

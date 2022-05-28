@@ -16,7 +16,7 @@ import ScrollButton from './components/ScrollButton'
 
 function App() {
   const [daytime, setDaytime] = useState(() => {
-    return false
+    return true
   })
 
   const duskdawn = () => {
@@ -46,13 +46,10 @@ function App() {
       >
         <Stack
           direction={{ xs: 'column', sm: 'row' }}
-          // spacing={2}
           gap={4}
           sx={{
             justifyContent: 'center',
             alignContent: 'center',
-            // alignContent: { xs: 'center', sm: 'stretch' },
-            // mb: 'auto',
             p: 4,
             flexWrap: 'wrap',
             my: 8,
@@ -62,7 +59,7 @@ function App() {
         </Stack>
       </Box>
       <ScrollButton sx={{ justifyContent: 'flex-end' }} />
-      <Footer daytime={daytime} />
+      <Footer />
     </ThemeProvider>
   )
 }

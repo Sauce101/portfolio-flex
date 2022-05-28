@@ -4,7 +4,9 @@ import UpIcon from '@mui/icons-material/KeyboardArrowUp'
 import Box from '@mui/material/Box'
 
 const ScrollButton = () => {
-  const [visible, setVisible] = useState(false)
+  const [visible, setVisible] = useState(() => {
+    return false
+  })
 
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop
@@ -19,8 +21,6 @@ const ScrollButton = () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth',
-      /* you can also use 'auto' behaviour
-         in place of 'smooth' */
     })
   }
 
@@ -31,10 +31,8 @@ const ScrollButton = () => {
       <Box
         sx={{
           position: 'fixed',
-          // mx: 'auto',
           bottom: '120px',
           height: '20px',
-          // fontSize: '3rem',
           cursor: 'pointer',
           color: 'primary.main',
           display: visible ? 'inline' : 'none',

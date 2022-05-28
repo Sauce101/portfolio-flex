@@ -1,16 +1,13 @@
 import React from 'react'
-// import { styled } from '@mui/material/styles'
 import Box from '@mui/material/Box'
 import Stack from '@mui/material/Stack'
 import Link from '@mui/material/Link'
 import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
 import IconButton from '@mui/material/IconButton'
-// import Button from '@mui/material/Button'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import Video from '../assets/video/hero.mp4'
-// import SplitButton from './SplitButton'
 
 const Hero = ({ daytime }) => {
   return (
@@ -58,7 +55,6 @@ const Hero = ({ daytime }) => {
         <Box
           sx={{
             position: 'absolute',
-            // display: 'none',
             width: '100%',
             height: '100%',
             top: 0,

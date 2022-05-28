@@ -17,7 +17,7 @@ function Copyright() {
   )
 }
 
-const Footer = ({ daytime }) => {
+const Footer = () => {
   return (
     <Box
       component="footer"

@@ -19,7 +19,6 @@ import Xwing from '../assets/images/covers/xwing.jpg'
 import DsOne from '../assets/images/covers/dsone.jpg'
 import TeslaRed from '../assets/images/covers/teslaclone.jpg'
 import Swapi from '../assets/images/covers/swapinext.jpg'
-// import ScrollButton from './ScrollButton'
 
 const MYALBUM = [
   {
@@ -114,7 +113,6 @@ const Projects = () => {
           sx={{
             // flex: { sm: '40%', lg: '25%' },
             maxWidth: { xs: '90%', sm: '40%', lg: '25%' },
-            // border: daytime ? '4px solid white' : '4px solid black',
             border: '2px solid white',
             position: 'relative',
           }}
@@ -168,7 +166,6 @@ const Projects = () => {
           </CardActions>
         </Card>
       ))}
-      {/* <ScrollButton sx={{ justifyContent: 'flex-end' }} /> */}
     </>
   )
 }

@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 
 import BgLite from './assets/images/bg/rwback.jpg'
 import BgDark from './assets/images/bg/darkred.jpg'
-import ScrollButton from './components/ScrollButton'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   const [daytime, setDaytime] = useState(() => {
@@ -58,7 +58,7 @@ function App() {
           <Projects daytime={daytime} />
         </Stack>
       </Box>
-      <ScrollButton sx={{ justifyContent: 'flex-end' }} />
+      <ScrollToTop />
       <Footer />
     </ThemeProvider>
   )

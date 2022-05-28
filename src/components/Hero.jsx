@@ -66,9 +66,16 @@ const Hero = ({ daytime }) => {
           }}
         />
       )}
-      <Box sx={{ pt: 8, pb: 6, zIndex: 3 }}>
+      {/* <Box sx={{ pt: 8, pb: 6, zIndex: 3 }}> */}
+      <Box sx={{ zIndex: 3 }}>
         <Container maxWidth="sm">
-          <Typography component="h1" variant="h2" align="center" gutterBottom>
+          <Typography
+            component="h1"
+            variant="h2"
+            align="center"
+            gutterBottom
+            sx={{ pt: 6 }}
+          >
             Michael Saucedo
           </Typography>
           <Typography

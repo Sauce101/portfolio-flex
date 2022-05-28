@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Fab from '@mui/material/Fab'
 import UpIcon from '@mui/icons-material/KeyboardArrowUp'
-import Box from '@mui/material/Box'
 
 const ScrollButton = () => {
   const [visible, setVisible] = useState(() => {
@@ -28,21 +27,21 @@ const ScrollButton = () => {
 
   return (
     <>
-      <Box
-        sx={{
-          position: 'fixed',
-          bottom: '120px',
-          height: '20px',
-          cursor: 'pointer',
-          color: 'primary.main',
-          display: visible ? 'inline' : 'none',
-          ml: { xs: '85%', sm: '90%', lg: '92%' },
-        }}
-      >
-        <Fab onClick={scrollToTop} color="primary" aria-label="up">
+      {visible && (
+        <Fab
+          onClick={scrollToTop}
+          color="primary"
+          aria-label="up"
+          sx={{
+            position: 'fixed',
+            bottom: '60px',
+            cursor: 'pointer',
+            ml: { xs: '85%', sm: '90%', lg: '92%' },
+          }}
+        >
           <UpIcon />
         </Fab>
-      </Box>
+      )}
     </>
   )
 }

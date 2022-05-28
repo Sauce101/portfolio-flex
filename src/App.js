@@ -25,14 +25,24 @@ function App() {
 
   const mode = daytime ? theme : darkTheme
 
+  const executeScroll = () => {
+    document.getElementById('myProjects').scrollIntoView({
+      behavior: 'smooth',
+    })
+  }
+
   return (
     <ThemeProvider theme={mode}>
       <CssBaseline />
-      <Navbar duskdawn={duskdawn} daytime={daytime} />
-      <Hero daytime={daytime} />
+      <Navbar
+        duskdawn={duskdawn}
+        daytime={daytime}
+        executeScroll={executeScroll}
+      />
+      <Hero daytime={daytime} executeScroll={executeScroll} />
       <Box
         backgroundColor="secondary.main"
-        id="Pro"
+        id="myProjects"
         sx={{
           display: 'flex',
           flexDirection: 'column',

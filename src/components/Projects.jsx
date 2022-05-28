@@ -111,7 +111,7 @@ const Projects = () => {
         <Card
           key={index}
           sx={{
-            // flex: { sm: '40%', lg: '25%' },
+            // flex: { xs: '90%', sm: '40%', lg: '25%' },
             maxWidth: { xs: '90%', sm: '40%', lg: '25%' },
             border: '2px solid white',
             position: 'relative',

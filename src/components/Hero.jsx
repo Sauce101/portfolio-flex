@@ -7,12 +7,12 @@ import Container from '@mui/material/Container'
 import IconButton from '@mui/material/IconButton'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import GitHubIcon from '@mui/icons-material/GitHub'
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward'
 import Video from '../assets/video/hero.mp4'
 
-const Hero = ({ daytime }) => {
+const Hero = ({ daytime, executeScroll }) => {
   return (
     <Box
-      backgroundColor={daytime ? 'background.paper' : 'secondary.main'}
       sx={{
         display: 'flex',
         flexDirection: 'column',
@@ -66,7 +66,6 @@ const Hero = ({ daytime }) => {
           }}
         />
       )}
-      {/* <Box sx={{ pt: 8, pb: 6, zIndex: 3 }}> */}
       <Box sx={{ zIndex: 3 }}>
         <Container maxWidth="sm">
           <Typography
@@ -74,7 +73,7 @@ const Hero = ({ daytime }) => {
             variant="h2"
             align="center"
             gutterBottom
-            sx={{ pt: 6 }}
+            sx={{ pt: { xs: 6, sm: 4.5, md: 8 } }}
           >
             Michael Saucedo
           </Typography>
@@ -82,14 +81,12 @@ const Hero = ({ daytime }) => {
             variant="h5"
             align="center"
             paragraph
-            // color="text.secondary"
             sx={{ color: daytime ? 'text.secondary' : 'primary.contrastText' }}
-            // sx={{ color: daytime ? 'text.secondary' : 'background.paper' }}
           >
             I build websites, web apps, and user interfaces.
           </Typography>
           <Stack
-            sx={{ pt: 4 }}
+            sx={{ pt: 3 }}
             direction="row"
             spacing={2}
             justifyContent="center"
@@ -118,11 +115,16 @@ const Hero = ({ daytime }) => {
             >
               <GitHubIcon sx={{ fontSize: 30 }} />
             </IconButton>
-            {/* <LinkedInIcon sx={{ fontSize: 40 }} />
-            <GitHubIcon sx={{ fontSize: 40 }} /> */}
-            {/* <Button variant="contained">LinkedIn</Button> */}
-            {/* <Button variant="outlined">GitHub</Button> */}
-            {/* <SplitButton /> */}
+          </Stack>
+          <Stack direction="row" spacing={2} justifyContent="center">
+            <IconButton
+              aria-label="projects"
+              size="large"
+              variant="contained"
+              onClick={executeScroll}
+            >
+              <ArrowDownwardIcon sx={{ fontSize: 30 }} />
+            </IconButton>
           </Stack>
         </Container>
       </Box>

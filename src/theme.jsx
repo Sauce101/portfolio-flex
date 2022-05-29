@@ -13,7 +13,7 @@ export const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: ['Exo', 'sans-serif'].join(','),
+    fontFamily: ['Roboto', 'sans-serif'].join(','),
   },
 })
 
@@ -30,6 +30,6 @@ export const darkTheme = createTheme({
     mode: 'dark',
   },
   typography: {
-    fontFamily: ['Exo', 'sans-serif'].join(','),
+    fontFamily: ['Roboto', 'sans-serif'].join(','),
   },
 })

@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import 'typeface-open-sans'
-import 'typeface-roboto'
 import { ThemeProvider } from '@mui/material/styles'
 import { theme, darkTheme } from './theme'
 import CssBaseline from '@mui/material/CssBaseline'

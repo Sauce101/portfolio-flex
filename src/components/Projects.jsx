@@ -3,9 +3,10 @@ import Card from '@mui/material/Card'
 import CardContent from '@mui/material/CardContent'
 import CardMedia from '@mui/material/CardMedia'
 import Link from '@mui/material/Link'
-import Button from '@mui/material/Button'
+// import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
 import CardActions from '@mui/material/CardActions'
+import Chip from '@mui/material/Chip'
 // icons
 import GitHubIcon from '@mui/icons-material/GitHub'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew'
@@ -135,20 +136,23 @@ const Projects = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button
+            <Chip
+              color="primary"
               component={Link}
               href={proj.href}
               underline="none"
               target="_blank"
               rel="noopener noreferrer"
               variant="contained"
-              startIcon={<OpenInNewIcon />}
-              size="small"
-              sx={{ position: 'absolute', left: 12, bottom: 8 }}
-            >
-              Open
-            </Button>
-            <Button
+              icon={<OpenInNewIcon />}
+              label="Open"
+              sx={{
+                position: 'absolute',
+                left: 16,
+                bottom: 12,
+              }}
+            />
+            <Chip
               color="secondary"
               component={Link}
               href={proj.code}
@@ -156,12 +160,15 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
               variant="contained"
-              startIcon={<GitHubIcon />}
-              size="small"
-              sx={{ position: 'absolute', right: 12, bottom: 8 }}
-            >
-              Code
-            </Button>
+              icon={<GitHubIcon />}
+              label="Code"
+              sx={{
+                position: 'absolute',
+                right: 16,
+                bottom: 12,
+                // bgcolor: grey[900],
+              }}
+            />
           </CardActions>
         </Card>
       ))}

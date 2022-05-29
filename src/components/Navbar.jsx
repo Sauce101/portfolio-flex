@@ -19,6 +19,7 @@ const Navbar = ({ duskdawn, daytime, executeScroll }) => {
   return (
     <AppBar
       position="sticky"
+      gutterBottom
       sx={{
         backgroundColor: 'primary.main',
         mb: 'auto',
@@ -27,7 +28,7 @@ const Navbar = ({ duskdawn, daytime, executeScroll }) => {
       <StyledToolbar>
         <Box
           onClick={executeScroll}
-          sx={{ display: { xs: 'none', sm: 'flex' } }}
+          sx={{ alignItems: 'flex-end', display: { xs: 'none', sm: 'flex' } }}
         >
           <LogoDevIcon fontSize="large" sx={{ mr: 1 }} />
           <Typography variant="h6">Portfolio</Typography>

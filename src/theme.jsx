@@ -12,6 +12,9 @@ export const theme = createTheme({
       contrastText: '#fff',
     },
   },
+  typography: {
+    fontFamily: ['Open Sans', 'sans-serif'].join(','),
+  },
 })
 
 export const darkTheme = createTheme({
@@ -25,5 +28,8 @@ export const darkTheme = createTheme({
       contrastText: '#fff',
     },
     mode: 'dark',
+  },
+  typography: {
+    fontFamily: ['Roboto', 'sans-serif'].join(','),
   },
 })

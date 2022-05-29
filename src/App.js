@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
+import 'typeface-open-sans'
+import 'typeface-roboto'
 import { ThemeProvider } from '@mui/material/styles'
 import { theme, darkTheme } from './theme'
 import CssBaseline from '@mui/material/CssBaseline'
 import Box from '@mui/material/Box'
 import Stack from '@mui/material/Stack'
-
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
-
 import BgLite from './assets/images/bg/rwback.jpg'
 import BgDark from './assets/images/bg/darkred.jpg'
 import ScrollToTop from './components/ScrollToTop'

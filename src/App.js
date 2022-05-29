@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { ThemeProvider } from '@mui/material/styles'
-import { theme, darkTheme } from './theme'
+import { lightTheme, darkTheme } from './theme'
 import CssBaseline from '@mui/material/CssBaseline'
 import Box from '@mui/material/Box'
 import Stack from '@mui/material/Stack'
@@ -21,7 +21,7 @@ function App() {
     setDaytime(!daytime)
   }
 
-  const mode = daytime ? theme : darkTheme
+  const mode = daytime ? lightTheme : darkTheme
 
   const executeScroll = () => {
     document.getElementById('myProjects').scrollIntoView({

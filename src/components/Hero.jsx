@@ -66,8 +66,8 @@ const Hero = ({ daytime, executeScroll }) => {
             variant="h2"
             align="center"
             gutterBottom
-            // sx={{ pt: { xs: 6, sm: 4.5, lg: 8 } }}
-            sx={{ mt: { xs: 6, sm: 2.5, lg: 8 } }}
+            sx={{ pt: { xs: 6, sm: 2.5, lg: 8 } }}
+            // sx={{ mt: { xs: 6, sm: 2.5, lg: 8 } }}
           >
             Michael Saucedo
           </Typography>

@@ -66,7 +66,8 @@ const Hero = ({ daytime, executeScroll }) => {
             variant="h2"
             align="center"
             gutterBottom
-            sx={{ pt: { xs: 6, sm: 4.5, md: 8 } }}
+            // sx={{ pt: { xs: 6, sm: 4.5, lg: 8 } }}
+            sx={{ mt: { xs: 6, sm: 3, lg: 8 } }}
           >
             Michael Saucedo
           </Typography>
@@ -79,7 +80,7 @@ const Hero = ({ daytime, executeScroll }) => {
             I build websites, web apps, and user interfaces.
           </Typography>
           <Stack
-            sx={{ pt: 3 }}
+            sx={{ pt: { xm: 3, sm: 2, lg: 4 } }}
             direction="row"
             spacing={2}
             justifyContent="center"
@@ -94,7 +95,7 @@ const Hero = ({ daytime, executeScroll }) => {
               rel="noopener noreferrer"
               variant="contained"
             >
-              <LinkedInIcon sx={{ fontSize: 30 }} />
+              <LinkedInIcon sx={{ fontSize: { xs: 33, lg: 40 } }} />
             </IconButton>
             <IconButton
               aria-label="git hub"
@@ -106,7 +107,7 @@ const Hero = ({ daytime, executeScroll }) => {
               rel="noopener noreferrer"
               variant="contained"
             >
-              <GitHubIcon sx={{ fontSize: 30 }} />
+              <GitHubIcon sx={{ fontSize: { xs: 33, lg: 40 } }} />
             </IconButton>
           </Stack>
           <Stack direction="row" spacing={2} justifyContent="center">
@@ -116,7 +117,7 @@ const Hero = ({ daytime, executeScroll }) => {
               variant="contained"
               onClick={executeScroll}
             >
-              <ArrowDownwardIcon sx={{ fontSize: 30 }} />
+              <ArrowDownwardIcon sx={{ fontSize: { xs: 33, lg: 40 } }} />
             </IconButton>
           </Stack>
         </Container>

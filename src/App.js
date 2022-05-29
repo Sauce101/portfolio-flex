@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { ThemeProvider } from '@mui/material/styles'
-import { theme, darkTheme } from './theme'
+// import { theme, darkTheme } from './theme'
 import CssBaseline from '@mui/material/CssBaseline'
 import Box from '@mui/material/Box'
 import Stack from '@mui/material/Stack'
@@ -12,7 +12,7 @@ import BgLite from './assets/images/bg/rwback.jpg'
 import BgDark from './assets/images/bg/darkred.jpg'
 import ScrollToTop from './components/ScrollToTop'
 
-function App() {
+function App({ theme, darkTheme }) {
   const [daytime, setDaytime] = useState(() => {
     return true
   })

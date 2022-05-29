@@ -6,7 +6,7 @@ import '@fontsource/roboto/500.css'
 import '@fontsource/roboto/400.css'
 import '@fontsource/roboto/300.css'
 
-let theme = createTheme({
+const themeLight = createTheme({
   palette: {
     primary: {
       main: red[900],
@@ -23,9 +23,9 @@ let theme = createTheme({
     fontDisplay: 'swap',
   },
 })
-export const lightTheme = responsiveFontSizes(theme)
+export const lightTheme = responsiveFontSizes(themeLight)
 
-export const darkTheme = createTheme({
+const themeDark = createTheme({
   palette: {
     primary: {
       main: red[900],
@@ -42,3 +42,4 @@ export const darkTheme = createTheme({
     fontDisplay: 'swap',
   },
 })
+export const darkTheme = responsiveFontSizes(themeDark)

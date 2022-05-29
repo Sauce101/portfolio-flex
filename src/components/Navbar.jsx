@@ -19,7 +19,6 @@ const Navbar = ({ duskdawn, daytime, executeScroll }) => {
   return (
     <AppBar
       position="sticky"
-      gutterBottom
       sx={{
         backgroundColor: 'primary.main',
         mb: 'auto',

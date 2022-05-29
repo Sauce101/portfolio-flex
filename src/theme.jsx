@@ -11,6 +11,7 @@ export const theme = createTheme({
       main: grey[900],
       contrastText: '#fff',
     },
+    mode: 'light',
   },
   typography: {
     fontFamily: ['Roboto', 'sans-serif'].join(','),

@@ -1,5 +1,10 @@
 import { createTheme } from '@mui/material/styles'
 import { grey, red } from '@mui/material/colors'
+import '@fontsource/exo'
+import '@fontsource/roboto/300.css'
+import '@fontsource/roboto/400.css'
+import '@fontsource/roboto/500.css'
+import '@fontsource/roboto/700.css'
 
 export const theme = createTheme({
   palette: {
@@ -15,7 +20,6 @@ export const theme = createTheme({
   },
   typography: {
     fontFamily: ['Roboto', 'sans-serif'].join(','),
-    subsets: ['latin'],
   },
 })
 
@@ -32,7 +36,6 @@ export const darkTheme = createTheme({
     mode: 'dark',
   },
   typography: {
-    fontFamily: ['Roboto', 'sans-serif'].join(','),
-    subsets: ['latin'],
+    fontFamily: ['Exo', 'sans-serif'].join(','),
   },
 })

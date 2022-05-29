@@ -14,7 +14,7 @@ import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   const [daytime, setDaytime] = useState(() => {
-    return false
+    return true
   })
 
   const duskdawn = () => {

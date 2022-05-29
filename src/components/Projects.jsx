@@ -37,7 +37,7 @@ const MYALBUM = [
     alt: 'table games',
     title: 'Table Games',
     about:
-      'React Router 6 practice with animation and rotation building dice and cards. Built with React.js and MUI 5.',
+      'React Router 6 practice with animation and rotation building dice and cards. React.js & MUI 5.',
   },
   {
     href: 'https://pokerdice.netlify.app/',
@@ -46,7 +46,7 @@ const MYALBUM = [
     alt: 'poker dice',
     title: 'Poker Dice',
     about:
-      'Grid practice with animation and rotation building poker dice with an svg per side. Built with React.js and MUI 5.',
+      'Grid practice with animation and rotation building poker dice with an svg per side. Built with React.js & MUI 5.',
   },
   {
     href: 'https://highcard.netlify.app/',
@@ -111,7 +111,6 @@ const Projects = () => {
         <Card
           key={index}
           sx={{
-            // flex: { xs: '90%', sm: '40%', lg: '25%' },
             maxWidth: { xs: '90%', sm: '40%', lg: '25%' },
             border: '2px solid white',
             position: 'relative',

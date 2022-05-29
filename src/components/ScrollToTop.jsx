@@ -33,7 +33,7 @@ export default function ScrollToTop() {
           color="primary"
           sx={{
             position: 'fixed',
-            bottom: '120px',
+            bottom: '60px',
             ml: { xs: '85%', sm: '90%', lg: '92%' },
           }}
         >

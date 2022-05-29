@@ -23,6 +23,13 @@ const Hero = ({ daytime, executeScroll }) => {
     >
       {!daytime && (
         <Box
+          component="video"
+          playsInline
+          autoPlay
+          loop
+          muted
+          src={Video}
+          type="video/mp4"
           sx={{
             position: 'absolute',
             top: 0,
@@ -33,23 +40,9 @@ const Hero = ({ daytime, executeScroll }) => {
             height: '100%',
             overflow: 'hidden',
             zIndex: 1,
+            objectFit: 'cover',
           }}
-        >
-          <Box
-            component="video"
-            playsInline
-            autoPlay
-            loop
-            muted
-            src={Video}
-            type="video/mp4"
-            sx={{
-              width: '100%',
-              height: '100%',
-              objectFit: 'cover',
-            }}
-          />
-        </Box>
+        />
       )}
       {!daytime && (
         <Box

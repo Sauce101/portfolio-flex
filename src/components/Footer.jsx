@@ -2,17 +2,12 @@ import React from 'react'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
-import Link from '@mui/material/Link'
 
 function Copyright() {
   return (
     <Typography variant="body2">
       {'Copyright © '}
-      <Link color="inherit" href="https://mikeys.netlify.app/">
-        Michael Saucedo
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
+      Saucedo 2022
     </Typography>
   )
 }
@@ -30,7 +25,8 @@ const Footer = () => {
       }}
     >
       <Container maxWidth="sm" align="center">
-        <Typography variant="body1">Contact me</Typography>
+        <Typography variant="body2">Contact me</Typography>
+        <Typography variant="body2">michaelsaucedo443@gmail.com</Typography>
         <Copyright />
       </Container>
     </Box>

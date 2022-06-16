@@ -59,6 +59,7 @@ const Hero = ({ daytime, executeScroll }) => {
           }}
         />
       )}
+
       <Box sx={{ zIndex: 3 }}>
         <Container maxWidth="sm">
           <Typography
@@ -66,8 +67,12 @@ const Hero = ({ daytime, executeScroll }) => {
             variant="h2"
             align="center"
             gutterBottom
-            sx={{ pt: { xs: 6, sm: 2.5, lg: 8 } }}
-            // sx={{ mt: { xs: 6, sm: 2.5, lg: 8 } }}
+            sx={{
+              pt: { xs: 6, sm: 2.5, lg: 8 },
+              '@media (orientation: portrait)': {
+                pt: { tablet: '25%' },
+              },
+            }}
           >
             Michael Saucedo
           </Typography>
@@ -75,7 +80,9 @@ const Hero = ({ daytime, executeScroll }) => {
             variant="h5"
             align="center"
             paragraph
-            sx={{ color: daytime ? 'text.secondary' : 'primary.contrastText' }}
+            sx={{
+              color: daytime ? 'text.secondary' : 'primary.contrastText',
+            }}
           >
             I build websites, web apps, and user interfaces.
           </Typography>

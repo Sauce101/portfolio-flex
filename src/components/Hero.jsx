@@ -84,6 +84,7 @@ const Hero = ({ daytime, executeScroll }) => {
             direction="row"
             spacing={2}
             justifyContent="center"
+            alignItems="center"
           >
             <IconButton
               aria-label="linked in"
@@ -93,7 +94,6 @@ const Hero = ({ daytime, executeScroll }) => {
               underline="none"
               target="_blank"
               rel="noopener noreferrer"
-              variant="contained"
             >
               <LinkedInIcon sx={{ fontSize: { xs: 33, lg: 40 } }} />
             </IconButton>
@@ -105,7 +105,6 @@ const Hero = ({ daytime, executeScroll }) => {
               underline="none"
               target="_blank"
               rel="noopener noreferrer"
-              variant="contained"
             >
               <GitHubIcon sx={{ fontSize: { xs: 33, lg: 40 } }} />
             </IconButton>

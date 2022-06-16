@@ -68,7 +68,7 @@ const Hero = ({ daytime, executeScroll }) => {
             align="center"
             gutterBottom
             sx={{
-              pt: { xs: 6, sm: 2.5, lg: 8 },
+              pt: { xs: 6, sm: 2.5, laptop: 8 },
               '@media (orientation: portrait)': {
                 pt: { tablet: '25%' },
               },

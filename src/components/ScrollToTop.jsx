@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Fab from '@mui/material/Fab'
-import UpIcon from '@mui/icons-material/KeyboardArrowUp'
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward'
 
 export default function ScrollToTop() {
   const [uptop, setUptop] = useState(() => {
@@ -37,7 +37,7 @@ export default function ScrollToTop() {
             ml: { xs: '85%', sm: '90%', lg: '92%' },
           }}
         >
-          <UpIcon />
+          <ArrowUpwardIcon />
         </Fab>
       )}
     </>

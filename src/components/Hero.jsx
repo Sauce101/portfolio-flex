@@ -143,7 +143,7 @@ const Hero = ({ daytime, executeScroll }) => {
             <Cube />
           </Stack>
         )}
-        {/* End Skills Cube */}
+        {/* end skills cube */}
       </Box>
     </Box>
   )

@@ -35,7 +35,6 @@ const spincube = keyframes({
 })
 
 const cubeface = {
-  // background: 'hsla(0%, 7%, 79%, 0.4)',
   border: '1px solid #ccc',
   boxShadow: '0 0 20px 10px lightyellow',
   background: 'rgba(255, 255, 255, 0.4)',
@@ -77,8 +76,6 @@ const Cube = () => {
   return (
     <Box
       // scene
-      // onClick={rollDice}
-      // key={index}
       sx={{
         height: '100px',
         width: '100px',
@@ -88,22 +85,17 @@ const Cube = () => {
       <Box
         // cube
         sx={{
-          // transform: `${die}`,
           width: '100px',
           height: '100px',
           position: 'relative',
           transformStyle: 'preserve-3d',
-          // transition: 'transform 0.8s',
-          // animationName: spincube,
-          // animationDuration: '12s',
-          // animationTimingFunction: 'ease-in-out',
-          // animationIterationCount: 'infinite',
           animation: `${spincube} 12s ease-in-out infinite`,
         }}
       >
         {POSITION.map((spot, index) => (
           <Card
             key={index}
+            square
             sx={{
               transform: `${spot.transform}`,
               background: cubeface.background,
@@ -123,7 +115,6 @@ const Cube = () => {
                 width: '100%',
                 height: 'auto',
               }}
-              // height="80"
             />
           </Card>
         ))}

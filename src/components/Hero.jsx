@@ -9,8 +9,13 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward'
 import Video from '../assets/video/hero.mp4'
+import Cube from './Cube'
+import useMediaQuery from '@mui/material/useMediaQuery'
 
 const Hero = ({ daytime, executeScroll }) => {
+  const devicePortrait = useMediaQuery('(orientation: portrait)')
+  const tabletWide = useMediaQuery('(min-width:900px)')
+
   return (
     <Box
       sx={{
@@ -127,6 +132,18 @@ const Hero = ({ daytime, executeScroll }) => {
             </IconButton>
           </Stack>
         </Container>
+        {/* skills cube */}
+        {(devicePortrait || tabletWide) && (
+          <Stack
+            direction="row"
+            spacing={2}
+            justifyContent="center"
+            sx={{ pt: 12 }}
+          >
+            <Cube />
+          </Stack>
+        )}
+        {/* End Skills Cube */}
       </Box>
     </Box>
   )

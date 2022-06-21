@@ -89,7 +89,7 @@ const Cube = () => {
           height: '100px',
           position: 'relative',
           transformStyle: 'preserve-3d',
-          animation: `${spincube} 12s ease-in-out infinite`,
+          animation: `${spincube} 24s ease-in-out infinite`,
         }}
       >
         {POSITION.map((spot, index) => (

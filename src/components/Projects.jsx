@@ -10,6 +10,7 @@ import Chip from '@mui/material/Chip'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew'
 // project images
+import BountyHunters from '../assets/images/covers/bounty-hunters.webp'
 import DiceRed from '../assets/images/covers/diceflex.jpg'
 import TableGames from '../assets/images/covers/gametable.jpg'
 import HighCard from '../assets/images/covers/highlow.jpg'
@@ -21,6 +22,15 @@ import TeslaRed from '../assets/images/covers/teslaclone.jpg'
 import Swapi from '../assets/images/covers/swapinext.jpg'
 
 const MYALBUM = [
+  {
+    href: 'https://bountyhunters.netlify.app/',
+    code: 'https://github.com/Sauce101/bounty-hunters',
+    image: BountyHunters,
+    alt: 'bounty hunters',
+    title: 'Bounty Hunters',
+    about:
+      'Tailwind CSS practice with React PWA, ESLint, Prettier and Husky. I used an Empire Strikes Back bounty hunter theme',
+  },
   {
     href: 'https://diceflex.netlify.app/',
     code: 'https://github.com/Sauce101/dice-flex',

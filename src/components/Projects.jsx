@@ -29,7 +29,7 @@ const MYALBUM = [
     alt: 'bounty hunters',
     title: 'Bounty Hunters',
     about:
-      'Tailwind CSS practice with React PWA, ESLint, Prettier and Husky. I used an Empire Strikes Back bounty hunter theme',
+      'Tailwind CSS practice with React PWA, ESLint, Prettier and Husky. I used an Empire Strikes Back bounty hunter theme.',
   },
   {
     href: 'https://diceflex.netlify.app/',
@@ -83,7 +83,7 @@ const MYALBUM = [
     alt: 'x-wing',
     title: 'X-wing',
     about:
-      'A fan site written in Gatsby.js showcasing the X-wing starfighter from the original movies. The site is installable.',
+      'A fan site written in Gatsby.js showcasing the X-wing starfighter from the original movies complete with trench run countdown video.',
   },
   {
     href: 'https://ds1.netlify.app/',

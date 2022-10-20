@@ -10,6 +10,7 @@ import Chip from '@mui/material/Chip'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew'
 // project images
+import SlotSauce from '../assets/images/covers/slot-sauce.webp'
 import BountyHunters from '../assets/images/covers/bounty-hunters.webp'
 import DiceRed from '../assets/images/covers/diceflex.jpg'
 import TableGames from '../assets/images/covers/gametable.jpg'
@@ -22,6 +23,15 @@ import TeslaRed from '../assets/images/covers/teslaclone.jpg'
 import Swapi from '../assets/images/covers/swapinext.jpg'
 
 const MYALBUM = [
+  {
+    href: 'https://slotsauce.netlify.app/',
+    code: 'https://github.com/Sauce101/slot-sauce',
+    image: SlotSauce,
+    alt: 'slot sauce',
+    title: 'Slot Sauce',
+    about:
+      'A responsive slot machine app with adjustable reels. Made with React and a touch of Tailwind.',
+  },
   {
     href: 'https://bountyhunters.netlify.app/',
     code: 'https://github.com/Sauce101/bounty-hunters',

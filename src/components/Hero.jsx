@@ -140,7 +140,7 @@ const Hero = ({ daytime, executeScroll }) => {
             justifyContent="center"
             sx={{ pt: 12 }}
           >
-            <Cube />
+            <Cube executeScroll={executeScroll} />
           </Stack>
         )}
         {/* end skills cube */}

@@ -3,9 +3,9 @@ import Card from '@mui/material/Card'
 import CardMedia from '@mui/material/CardMedia'
 // six skills
 import D1 from '../assets/images/svg/logo-react.svg'
-import D2 from '../assets/images/svg/logo-gatsby.svg'
+import D2 from '../assets/images/svg/logo-tailwind.svg'
 import D3 from '../assets/images/svg/logo-github.svg'
-import D4 from '../assets/images/svg/logo-html.svg'
+import D4 from '../assets/images/svg/logo-gatsby.svg'
 import D5 from '../assets/images/svg/logo-mui.svg'
 import D6 from '../assets/images/svg/logo-javascript.svg'
 import { keyframes } from '@emotion/react'
@@ -37,7 +37,7 @@ const spincube = keyframes({
 const cubeface = {
   border: '1px solid #ccc',
   boxShadow: '0 0 20px 10px lightyellow',
-  background: 'rgba(255, 255, 255, 0.4)',
+  background: 'rgba(255, 255, 255, 0.2)',
   position: 'absolute',
   width: '100px',
   height: '100px',
@@ -72,7 +72,7 @@ const POSITION = [
   },
 ]
 
-const Cube = () => {
+const Cube = ({ executeScroll }) => {
   return (
     <Box
       // scene
@@ -84,6 +84,7 @@ const Cube = () => {
     >
       <Box
         // cube
+        onClick={executeScroll}
         sx={{
           width: '100px',
           height: '100px',
@@ -105,6 +106,7 @@ const Cube = () => {
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
+              backfaceVisibility: 'hidden',
             }}
           >
             <CardMedia

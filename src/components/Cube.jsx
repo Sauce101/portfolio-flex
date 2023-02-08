@@ -5,9 +5,9 @@ import CardMedia from '@mui/material/CardMedia'
 import D1 from '../assets/images/svg/logo-react.svg'
 import D2 from '../assets/images/svg/logo-tailwind.svg'
 import D3 from '../assets/images/svg/logo-github.svg'
-import D4 from '../assets/images/svg/logo-gatsby.svg'
+import D4 from '../assets/images/svg/logo-javascript.svg'
 import D5 from '../assets/images/svg/logo-mui.svg'
-import D6 from '../assets/images/svg/logo-javascript.svg'
+import D6 from '../assets/images/svg/logo-typescript.svg'
 import { keyframes } from '@emotion/react'
 
 const spincube = keyframes({

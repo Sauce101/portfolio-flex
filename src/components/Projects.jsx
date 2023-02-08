@@ -10,6 +10,7 @@ import Chip from '@mui/material/Chip'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew'
 // project images
+import VideoPoker from '../assets/images/covers/video-poker.webp'
 import SlotSauce from '../assets/images/covers/slot-sauce.webp'
 import BountyHunters from '../assets/images/covers/bounty-hunters.webp'
 import DiceRed from '../assets/images/covers/diceflex.jpg'
@@ -23,6 +24,15 @@ import TeslaRed from '../assets/images/covers/teslaclone.jpg'
 import Swapi from '../assets/images/covers/swapinext.jpg'
 
 const MYALBUM = [
+  {
+    href: 'https://videopokerapi.netlify.app/',
+    code: 'https://github.com/Sauce101/video-poker',
+    image: VideoPoker,
+    alt: 'video poker',
+    title: 'Video Poker Api',
+    about:
+      'Video Poker App with api calls to a deck of cards. Vite React framework with Redux Toolkit in Typescript.',
+  },
   {
     href: 'https://slotsauce.netlify.app/',
     code: 'https://github.com/Sauce101/slot-sauce',

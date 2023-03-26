@@ -18,10 +18,10 @@ import TableGames from '../assets/images/covers/gametable.jpg'
 import HighCard from '../assets/images/covers/highlow.jpg'
 import DicePoker from '../assets/images/covers/pokerdice.jpg'
 import Sienar from '../assets/images/covers/sienar.jpg'
-import Xwing from '../assets/images/covers/xwing.jpg'
-import DsOne from '../assets/images/covers/dsone.jpg'
-import TeslaRed from '../assets/images/covers/teslaclone.jpg'
-import Swapi from '../assets/images/covers/swapinext.jpg'
+// import Xwing from '../assets/images/covers/xwing.jpg'
+// import DsOne from '../assets/images/covers/dsone.jpg'
+// import TeslaRed from '../assets/images/covers/teslaclone.jpg'
+// import Swapi from '../assets/images/covers/swapinext.jpg'
 
 const MYALBUM = [
   {
@@ -96,42 +96,42 @@ const MYALBUM = [
     about:
       'Sienar Fleet Systems starship manufacturer, best known for their TIE line. Many starships to choose from. Built with Gatsby.js & MUI 5.',
   },
-  {
-    href: 'https://xwing-sauce.netlify.app/',
-    code: 'https://github.com/Sauce101/xwing-sauce',
-    image: Xwing,
-    alt: 'x-wing',
-    title: 'X-wing',
-    about:
-      'A fan site written in Gatsby.js showcasing the X-wing starfighter from the original movies complete with trench run countdown video.',
-  },
-  {
-    href: 'https://ds1.netlify.app/',
-    code: 'https://github.com/Sauce101/star-styled',
-    image: DsOne,
-    alt: 'death star one',
-    title: 'DS-1',
-    about:
-      'A fan site written in React.js and Styled-Components showcasing the Death Star from the original movies.',
-  },
-  {
-    href: 'https://teslatwo.netlify.app/',
-    code: 'https://github.com/Sauce101/tesla-clone-react',
-    image: TeslaRed,
-    alt: 'tesla clone',
-    title: 'Tesla Clone',
-    about:
-      'My second Tesla clone site, built with React and styled components. This is from a tutorial I modified.',
-  },
-  {
-    href: 'https://swapi-next.vercel.app/',
-    code: 'https://github.com/Sauce101/swapi-next',
-    image: Swapi,
-    alt: 'swapi',
-    title: 'SW-API',
-    about:
-      'My first build utilizing an API that has a Star Wars theme. This is a wiki like site with Galactic Basic to English language translation. Built with Next.js',
-  },
+  // {
+  //   href: 'https://xwing-sauce.netlify.app/',
+  //   code: 'https://github.com/Sauce101/xwing-sauce',
+  //   image: Xwing,
+  //   alt: 'x-wing',
+  //   title: 'X-wing',
+  //   about:
+  //     'A fan site written in Gatsby.js showcasing the X-wing starfighter from the original movies complete with trench run countdown video.',
+  // },
+  // {
+  //   href: 'https://ds1.netlify.app/',
+  //   code: 'https://github.com/Sauce101/star-styled',
+  //   image: DsOne,
+  //   alt: 'death star one',
+  //   title: 'DS-1',
+  //   about:
+  //     'A fan site written in React.js and Styled-Components showcasing the Death Star from the original movies.',
+  // },
+  // {
+  //   href: 'https://teslatwo.netlify.app/',
+  //   code: 'https://github.com/Sauce101/tesla-clone-react',
+  //   image: TeslaRed,
+  //   alt: 'tesla clone',
+  //   title: 'Tesla Clone',
+  //   about:
+  //     'My second Tesla clone site, built with React and styled components. This is from a tutorial I modified.',
+  // },
+  // {
+  //   href: 'https://swapi-next.vercel.app/',
+  //   code: 'https://github.com/Sauce101/swapi-next',
+  //   image: Swapi,
+  //   alt: 'swapi',
+  //   title: 'SW-API',
+  //   about:
+  //     'My first build utilizing an API that has a Star Wars theme. This is a wiki like site with Galactic Basic to English language translation. Built with Next.js',
+  // },
 ]
 
 const Projects = () => {

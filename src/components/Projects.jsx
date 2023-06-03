@@ -10,6 +10,7 @@ import Chip from '@mui/material/Chip'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew'
 // project images
+import BlackJack from '../assets/images/covers/blackjack.jpg'
 import VideoPoker from '../assets/images/covers/video-poker.webp'
 import SlotSauce from '../assets/images/covers/slot-sauce.webp'
 import BountyHunters from '../assets/images/covers/bounty-hunters.webp'
@@ -24,6 +25,15 @@ import Sienar from '../assets/images/covers/sienar.jpg'
 // import Swapi from '../assets/images/covers/swapinext.jpg'
 
 const MYALBUM = [
+  {
+    href: 'https://blackjacksauce.netlify.app/',
+    code: 'https://github.com/Sauce101/blackjack-react',
+    image: BlackJack,
+    alt: 'blackjack',
+    title: 'Blackjack',
+    about:
+      'My take on Blackjack with deck of cards api and automatic ace calculation. Made with my React Tailwind starter template in Typescript.',
+  },
   {
     href: 'https://videopokerapi.netlify.app/',
     code: 'https://github.com/Sauce101/video-poker',

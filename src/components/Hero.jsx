@@ -128,6 +128,7 @@ const Hero = ({ daytime, executeScroll }) => {
               variant="contained"
               onClick={executeScroll}
             >
+              My Projects
               <ArrowDownwardIcon sx={{ fontSize: { xs: 33, lg: 40 } }} />
             </IconButton>
           </Stack>

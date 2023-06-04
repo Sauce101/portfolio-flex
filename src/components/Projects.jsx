@@ -11,7 +11,7 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew'
 // project images
 import BlackJack from '../assets/images/covers/blackjack.jpg'
-import VideoPoker from '../assets/images/covers/video-poker.webp'
+import VideoPoker from '../assets/images/covers/videoPoker.jpg'
 import SlotSauce from '../assets/images/covers/slot-sauce.webp'
 import BountyHunters from '../assets/images/covers/bounty-hunters.webp'
 import DiceRed from '../assets/images/covers/diceflex.jpg'

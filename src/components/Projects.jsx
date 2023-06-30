@@ -10,6 +10,7 @@ import Chip from '@mui/material/Chip'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew'
 // project images
+import CardsRedux from '../assets/images/covers/cardsRedux.webp'
 import BlackJack from '../assets/images/covers/blackjack.jpg'
 import VideoPoker from '../assets/images/covers/videoPoker.jpg'
 import SlotSauce from '../assets/images/covers/slot-sauce.webp'
@@ -25,6 +26,15 @@ import Sienar from '../assets/images/covers/sienar.jpg'
 // import Swapi from '../assets/images/covers/swapinext.jpg'
 
 const MYALBUM = [
+  {
+    href: 'https://cardsredux.netlify.app/',
+    code: 'https://github.com/Sauce101/cards-redux',
+    image: CardsRedux,
+    alt: 'cards redux',
+    title: 'Cards Redux',
+    about:
+      'A React deck of cards API website you can install on mobile devices. This app uses Redux Toolkit and React Router to combine two games, blackjack and video poker.',
+  },
   {
     href: 'https://blackjacksauce.netlify.app/',
     code: 'https://github.com/Sauce101/blackjack-react',

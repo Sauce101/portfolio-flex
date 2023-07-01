@@ -37,7 +37,7 @@
     },
     {
       "src": "logo.svg",
-      "sizes": "640x835",
+      "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"
     }

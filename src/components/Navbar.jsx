@@ -22,6 +22,7 @@ const Navbar = ({ duskdawn, daytime, executeScroll }) => {
       sx={{
         backgroundColor: 'primary.main',
         mb: 'auto',
+        top: 0,
       }}
     >
       <StyledToolbar>

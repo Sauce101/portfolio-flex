@@ -18,7 +18,7 @@ const StyledToolbar = styled(Toolbar)({
 const Navbar = ({ duskdawn, daytime, executeScroll }) => {
   return (
     <AppBar
-      position="sticky"
+      position="fixed"
       sx={{
         backgroundColor: 'primary.main',
         mb: 'auto',

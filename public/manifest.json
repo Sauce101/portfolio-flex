@@ -2,6 +2,7 @@
   "name": "Mikeys Portfolio",
   "short_name": "Mikeys Portfolio",
   "start_url": "/",
+  "id": "/",
   "display": "standalone",
   "orientation": "any",
   "description": "Michael Saucedo Portfolio",

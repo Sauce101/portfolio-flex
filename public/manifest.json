@@ -2,7 +2,6 @@
   "name": "Mikeys Portfolio",
   "short_name": "Mikeys Portfolio",
   "start_url": "/",
-  "id": "/",
   "display": "standalone",
   "orientation": "any",
   "description": "Michael Saucedo Portfolio",
@@ -14,11 +13,6 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
-    },
-    {
-      "src": "/assets/images/android/android-launchericon-48-48.png",
-      "sizes": "48x48",
-      "type": "image/png"
     },
     {
       "src": "logo192.png",
@@ -38,6 +32,11 @@
     {
       "src": "logo512.png",
       "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "logo1024.png",
+      "sizes": "1024x1024",
       "type": "image/png"
     }
   ],

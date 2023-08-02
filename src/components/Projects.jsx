@@ -16,9 +16,9 @@ import VideoPoker from '../assets/images/covers/videoPoker.jpg'
 import SlotSauce from '../assets/images/covers/slot-sauce.webp'
 import BountyHunters from '../assets/images/covers/bounty-hunters.webp'
 import DiceRed from '../assets/images/covers/diceflex.jpg'
-import TableGames from '../assets/images/covers/gametable.jpg'
+// import TableGames from '../assets/images/covers/gametable.jpg'
 import HighCard from '../assets/images/covers/highlow.jpg'
-import DicePoker from '../assets/images/covers/pokerdice.jpg'
+// import DicePoker from '../assets/images/covers/pokerdice.jpg'
 import Sienar from '../assets/images/covers/sienar.jpg'
 // import Xwing from '../assets/images/covers/xwing.jpg'
 // import DsOne from '../assets/images/covers/dsone.jpg'
@@ -80,24 +80,24 @@ const MYALBUM = [
     about:
       'Flexbox practice with animation and rotation building dice with craps table background. Built with React.js and MUI 5.',
   },
-  {
-    href: 'https://gametables.netlify.app/',
-    code: 'https://github.com/Sauce101/game-table',
-    image: TableGames,
-    alt: 'table games',
-    title: 'Table Games',
-    about:
-      'React Router 6 practice with animation and rotation building dice and cards. React.js & MUI 5.',
-  },
-  {
-    href: 'https://pokerdice.netlify.app/',
-    code: 'https://github.com/Sauce101/poker-dice',
-    image: DicePoker,
-    alt: 'poker dice',
-    title: 'Poker Dice',
-    about:
-      'Grid practice with animation and rotation building poker dice with an svg per side. Built with React.js & MUI 5.',
-  },
+  // {
+  //   href: 'https://gametables.netlify.app/',
+  //   code: 'https://github.com/Sauce101/game-table',
+  //   image: TableGames,
+  //   alt: 'table games',
+  //   title: 'Table Games',
+  //   about:
+  //     'React Router 6 practice with animation and rotation building dice and cards. React.js & MUI 5.',
+  // },
+  // {
+  //   href: 'https://pokerdice.netlify.app/',
+  //   code: 'https://github.com/Sauce101/poker-dice',
+  //   image: DicePoker,
+  //   alt: 'poker dice',
+  //   title: 'Poker Dice',
+  //   about:
+  //     'Grid practice with animation and rotation building poker dice with an svg per side. Built with React.js & MUI 5.',
+  // },
   {
     href: 'https://highcard.netlify.app/',
     code: 'https://github.com/Sauce101/high-card',

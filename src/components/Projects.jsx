@@ -58,7 +58,7 @@ const MYALBUM = [
     code: 'https://github.com/Sauce101/slot-sauce',
     image: SlotSauce,
     alt: 'slot sauce',
-    title: 'Slot Sauce',
+    title: 'Slot Machine',
     about:
       'A responsive slot machine app with adjustable reels. Made with React and a touch of Tailwind.',
   },
@@ -76,7 +76,7 @@ const MYALBUM = [
     code: 'https://github.com/Sauce101/dice-flex',
     image: DiceRed,
     alt: 'red dice',
-    title: 'Dice Flex',
+    title: 'Dice Casino',
     about:
       'Flexbox practice with animation and rotation building dice with craps table background. Built with React.js and MUI 5.',
   },

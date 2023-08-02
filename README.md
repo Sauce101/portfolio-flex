@@ -14,19 +14,18 @@ Open [My Portfolio](https://mikeys.netlify.app/) to view it in your browser.
 
 A quick look at the sections you'll see in this React project.
 
-1.  **`Dice Flex:`**
+1.  **`Cards Redux:`**
 
-2.  **`Table Games:`**
+2.  **`Blackjack:`**
 
-3.  **`Poker Dice:`**
+3.  **`Video Poker API:`**
 
-4.  **`High Card:`**
+4.  **`Slots:`**
 
-5.  **`Sienar Fleet Systems:`**
-6.  **`X-wing:`**
-7.  **`DS-1:`**
-8.  **`Tesla Clone:`**
-9.  **`SW-API:`**
+5.  **`Bounty Hunters:`**
+6.  **`Craps:`**
+7.  **`High Card:`**
+8.  **`Sienar Fleet Systems:`**
 
 <br />
 <br />

@@ -11,8 +11,8 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew'
 // project images
 import CardsRedux from '../assets/images/covers/cardsRedux.webp'
-import BlackJack from '../assets/images/covers/blackjack.jpg'
-import VideoPoker from '../assets/images/covers/videoPoker.jpg'
+// import BlackJack from '../assets/images/covers/blackjack.jpg'
+// import VideoPoker from '../assets/images/covers/videoPoker.jpg'
 import SlotSauce from '../assets/images/covers/slot-sauce.webp'
 import BountyHunters from '../assets/images/covers/bounty-hunters.webp'
 import DiceRed from '../assets/images/covers/diceflex.jpg'
@@ -35,24 +35,24 @@ const MYALBUM = [
     about:
       'A React deck of cards API website you can install on mobile devices. This app uses Redux Toolkit and React Router to combine two games, blackjack and video poker.',
   },
-  {
-    href: 'https://blackjacksauce.netlify.app/',
-    code: 'https://github.com/Sauce101/blackjack-react',
-    image: BlackJack,
-    alt: 'blackjack',
-    title: 'Blackjack',
-    about:
-      'My take on Blackjack with deck of cards api and automatic ace calculation. Made with my React Tailwind starter template in Typescript.',
-  },
-  {
-    href: 'https://videopokerapi.netlify.app/',
-    code: 'https://github.com/Sauce101/video-poker',
-    image: VideoPoker,
-    alt: 'video poker',
-    title: 'Video Poker Api',
-    about:
-      'Video Poker App with api calls to a deck of cards. Vite React framework with Redux Toolkit in Typescript.',
-  },
+  // {
+  //   href: 'https://blackjacksauce.netlify.app/',
+  //   code: 'https://github.com/Sauce101/blackjack-react',
+  //   image: BlackJack,
+  //   alt: 'blackjack',
+  //   title: 'Blackjack',
+  //   about:
+  //     'My take on Blackjack with deck of cards api and automatic ace calculation. Made with my React Tailwind starter template in Typescript.',
+  // },
+  // {
+  //   href: 'https://videopokerapi.netlify.app/',
+  //   code: 'https://github.com/Sauce101/video-poker',
+  //   image: VideoPoker,
+  //   alt: 'video poker',
+  //   title: 'Video Poker Api',
+  //   about:
+  //     'Video Poker App with api calls to a deck of cards. Vite React framework with Redux Toolkit in Typescript.',
+  // },
   {
     href: 'https://slotsauce.netlify.app/',
     code: 'https://github.com/Sauce101/slot-sauce',

@@ -10,6 +10,7 @@ import Chip from '@mui/material/Chip'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew'
 // project images
+import SkyRed from '../assets/images/covers/skyred-cover.webp'
 import CardsRedux from '../assets/images/covers/cardsRedux.webp'
 // import BlackJack from '../assets/images/covers/blackjack.jpg'
 // import VideoPoker from '../assets/images/covers/videoPoker.jpg'
@@ -26,6 +27,15 @@ import Sienar from '../assets/images/covers/sienar.jpg'
 // import Swapi from '../assets/images/covers/swapinext.jpg'
 
 const MYALBUM = [
+  {
+    href: 'https://www.skyredpro2023.com/',
+    code: 'https://github.com/squarespace',
+    image: SkyRed,
+    alt: 'sky red productions',
+    title: 'SkyRed Productions',
+    about:
+      'A business with over 20 years of photography and video production experience. Real estate and photobooth. Constructed with Squarespace web builder. ',
+  },
   {
     href: 'https://cardsredux.netlify.app/',
     code: 'https://github.com/Sauce101/cards-redux',
@@ -54,15 +64,6 @@ const MYALBUM = [
   //     'Video Poker App with api calls to a deck of cards. Vite React framework with Redux Toolkit in Typescript.',
   // },
   {
-    href: 'https://slotsauce.netlify.app/',
-    code: 'https://github.com/Sauce101/slot-sauce',
-    image: SlotSauce,
-    alt: 'slot sauce',
-    title: 'Slot Machine',
-    about:
-      'A responsive slot machine app with adjustable reels. Made with React and a touch of Tailwind.',
-  },
-  {
     href: 'https://bountyhunters.netlify.app/',
     code: 'https://github.com/Sauce101/bounty-hunters',
     image: BountyHunters,
@@ -72,14 +73,23 @@ const MYALBUM = [
       'Tailwind CSS practice with React PWA, ESLint, Prettier and Husky. I used an Empire Strikes Back bounty hunter theme.',
   },
   {
-    href: 'https://diceflex.netlify.app/',
-    code: 'https://github.com/Sauce101/dice-flex',
-    image: DiceRed,
-    alt: 'red dice',
-    title: 'Dice Casino',
+    href: 'https://slotsauce.netlify.app/',
+    code: 'https://github.com/Sauce101/slot-sauce',
+    image: SlotSauce,
+    alt: 'slot sauce',
+    title: 'Slot Machine',
     about:
-      'Flexbox practice with animation and rotation building dice with craps table background. Built with React.js and MUI 5.',
+      'A responsive slot machine app with adjustable reels. Made with React and a touch of Tailwind.',
   },
+  // {
+  //   href: 'https://diceflex.netlify.app/',
+  //   code: 'https://github.com/Sauce101/dice-flex',
+  //   image: DiceRed,
+  //   alt: 'red dice',
+  //   title: 'Dice Casino',
+  //   about:
+  //     'Flexbox practice with animation and rotation building dice with craps table background. Built with React.js and MUI 5.',
+  // },
   // {
   //   href: 'https://gametables.netlify.app/',
   //   code: 'https://github.com/Sauce101/game-table',

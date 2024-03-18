@@ -4,10 +4,11 @@ import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
 
 function Copyright() {
+  const currentYear = new Date().getFullYear()
   return (
     <Typography variant="body2">
       {'Copyright © '}
-      Saucedo 2022
+      Saucedo 2022-{currentYear}
     </Typography>
   )
 }

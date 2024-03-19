@@ -14,18 +14,17 @@ Open [My Portfolio](https://mikeys.netlify.app/) to view it in your browser.
 
 A quick look at the sections you'll see in this React project.
 
-1.  **`Cards Redux:`**
+1.  **`SkyRed Productions:`**
 
-2.  **`Blackjack:`**
+2.  **`Cards Redux:`**
 
-3.  **`Video Poker API:`**
+3.  **`Bounty Hunters:`**
 
-4.  **`Slots:`**
+4.  **`Slot Machine:`**
 
-5.  **`Bounty Hunters:`**
-6.  **`Craps:`**
-7.  **`High Card:`**
-8.  **`Sienar Fleet Systems:`**
+5.  **`High Card:`**
+
+6.  **`Sienar Fleet Systems:`**
 
 <br />
 <br />

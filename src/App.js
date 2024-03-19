@@ -18,6 +18,7 @@ function App() {
   // const [daytime, setDaytime] = useState(() => {
   //   return true
   // })
+
   const { daytime, setDaytime } = useColorScheme()
 
   const duskdawn = () => {

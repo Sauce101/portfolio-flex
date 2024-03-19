@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 import { ThemeProvider } from '@mui/material/styles'
 import { lightTheme, darkTheme } from './theme'
 import CssBaseline from '@mui/material/CssBaseline'
@@ -12,10 +12,13 @@ import BgLite from './assets/images/bg/rwback.jpg'
 import BgDark from './assets/images/bg/darkred.jpg'
 import ScrollToTop from './components/ScrollToTop'
 
+import { useColorScheme } from './hooks/useColorScheme'
+
 function App() {
-  const [daytime, setDaytime] = useState(() => {
-    return true
-  })
+  // const [daytime, setDaytime] = useState(() => {
+  //   return true
+  // })
+  const { daytime, setDaytime } = useColorScheme()
 
   const duskdawn = () => {
     setDaytime(!daytime)

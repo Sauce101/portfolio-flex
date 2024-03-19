@@ -1,8 +1,9 @@
 import { useMemo } from 'react'
 import { useMediaQuery } from 'react-responsive'
-import createPersistedState from 'use-persisted-state'
+// import createPersistedState from 'use-persisted-state'
+import useLocalStorageState from 'use-local-storage-state'
 
-const useColorSchemeState = createPersistedState('colorScheme')
+// const useColorSchemeState = createPersistedState('colorScheme')
 
 export function useColorScheme() {
   const systemPrefersDark = useMediaQuery(
@@ -12,7 +13,11 @@ export function useColorScheme() {
     undefined
   )
 
-  const [daytime, setDaytime] = useColorSchemeState()
+  // const [daytime, setDaytime] = useColorSchemeState()
+  const [daytime, setDaytime] = useLocalStorageState('colorScheme', {
+    defaultValue: '',
+  })
+
   const value = useMemo(
     () => (daytime === undefined ? !!systemPrefersDark : daytime),
     [daytime, systemPrefersDark]

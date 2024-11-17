@@ -103,7 +103,7 @@ const Hero = ({ daytime, executeScroll }) => {
               aria-label="linked in"
               size="large"
               component={Link}
-              href="https://www.linkedin.com/in/michael-saucedo-101/"
+              href="https://www.linkedin.com/in/mikeys/"
               underline="none"
               target="_blank"
               rel="noopener noreferrer"

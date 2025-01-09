@@ -27,7 +27,7 @@ const Footer = () => {
     >
       <Container maxWidth="sm" align="center">
         <Typography variant="body2">Contact me</Typography>
-        <Typography variant="body2">michaelsaucedo443@gmail.com</Typography>
+        <Typography variant="body2">Mike.Cucamonga@gmail.com</Typography>
         <Copyright />
       </Container>
     </Box>
